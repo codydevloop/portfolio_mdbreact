@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio_mdbreact/static/css/main.57f052f5.chunk.css",
+    "main.js": "/portfolio_mdbreact/static/js/main.8cdd2752.chunk.js",
+    "main.js.map": "/portfolio_mdbreact/static/js/main.8cdd2752.chunk.js.map",
+    "runtime-main.js": "/portfolio_mdbreact/static/js/runtime-main.b526eaf3.js",
+    "runtime-main.js.map": "/portfolio_mdbreact/static/js/runtime-main.b526eaf3.js.map",
+    "static/css/2.a741f156.chunk.css": "/portfolio_mdbreact/static/css/2.a741f156.chunk.css",
+    "static/js/2.5d81d048.chunk.js": "/portfolio_mdbreact/static/js/2.5d81d048.chunk.js",
+    "static/js/2.5d81d048.chunk.js.map": "/portfolio_mdbreact/static/js/2.5d81d048.chunk.js.map",
+    "index.html": "/portfolio_mdbreact/index.html",
+    "precache-manifest.11954a780df53eaaed7925b6284a84c7.js": "/portfolio_mdbreact/precache-manifest.11954a780df53eaaed7925b6284a84c7.js",
+    "service-worker.js": "/portfolio_mdbreact/service-worker.js",
+    "static/css/2.a741f156.chunk.css.map": "/portfolio_mdbreact/static/css/2.a741f156.chunk.css.map",
+    "static/css/main.57f052f5.chunk.css.map": "/portfolio_mdbreact/static/css/main.57f052f5.chunk.css.map",
+    "static/js/2.5d81d048.chunk.js.LICENSE.txt": "/portfolio_mdbreact/static/js/2.5d81d048.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/portfolio_mdbreact/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/portfolio_mdbreact/static/media/fa-solid-900.ee09ad75.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b526eaf3.js",
+    "static/css/2.a741f156.chunk.css",
+    "static/js/2.5d81d048.chunk.js",
+    "static/css/main.57f052f5.chunk.css",
+    "static/js/main.8cdd2752.chunk.js"
+  ]
+}
