@@ -1,0 +1,58 @@
+/* style GoogleFont */
+
+/* body{
+    font-family: 'Roboto Slab', sans-serif;
+    background: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/purty_wood.png");
+    
+} */
+
+/* style FontAwesome CSS icon */
+a{
+    color: white;
+}
+.fa-css3-alt{
+    color: blue;
+}
+
+/* style FontAwesome HTML icon */
+
+.fa-html5{
+    color: orangered;
+}
+
+
+.fa-js-square{
+    color:yellow;
+}
+
+.cardHeightOnIndex{
+    height: 350px;
+}
+.copy{
+    color: white;
+    margin-top: 20px; 
+}
+
+.container {
+    /* display: flex; */
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    background-color: #1565C0;
+
+    /* background-color:orange; */
+    /* justify-content: flex-end */
+}
+
+/* linkedin-github-resume */
+.flexbox-item-naviconsonly{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.flexbox-item-phoneinfo{
+  display: flex;
+  justify-content: center;
+}
