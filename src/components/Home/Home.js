@@ -8,9 +8,10 @@ import AboutMe from "../AboutMe/AboutMe";
 const Home = () => {
     return (
         <>
-            <Nav />
+            {/* <Nav />
             {/* <MDBContainer></MDBContainer> */}
-            <AboutMe />
+            {/* <AboutMe /> */}
+            <h1>Test</h1>
             
 
         </>

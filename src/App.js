@@ -13,14 +13,17 @@ import Portfolio from "./components/Portfolio/Portfolio";
 function App() {
   return (
     <>
-    {/* <GridExamplesPage /> */}
+      {/* <GridExamplesPage /> */}
 
-    <Router>
-      <Switch>
-          <Route exact path="/" component={Home} />
+      <Router>
+        <Switch>
+          <Route exact path="/portfolio_mdbreact" component={Home} />
           <Route path="/Portfolio" component={Portfolio} />
-          </Switch>
+        </Switch>
+        
       </Router>
+    
+
     </>
   );
 }
