@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+hosted on gh-pages 
+(https://codydevloop.github.io/portfolio_mdbreact/)
+
 ## Available Scripts
 
 In the project directory, you can run:

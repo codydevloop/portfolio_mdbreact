@@ -15,14 +15,14 @@ function App() {
     <>
       {/* <GridExamplesPage /> */}
 
-      <Router>
+      {/* <Router>
         <Switch>
           <Route exact path="/portfolio_mdbreact" component={Home} />
           <Route path="/Portfolio" component={Portfolio} />
         </Switch>
         
-      </Router>
-    
+      </Router> */}
+    <Home />
 
     </>
   );
