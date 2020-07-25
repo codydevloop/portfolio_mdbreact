@@ -7,9 +7,23 @@
 } */
 
 /* style FontAwesome CSS icon */
-a{
-    color: white;
+.link{
+    margin: 5px;
+   
 }
+.codyMargin{
+    margin-left: 5em;
+    padding-top: 1em;
+}
+.linkgroup{
+ /* border: solid red 1px; */
+    margin-right: 5em;
+ 
+}
+
+    
+
+
 .fa-css3-alt{
     color: blue;
 }
@@ -33,16 +47,7 @@ a{
     margin-top: 20px; 
 }
 
-.container {
-    /* display: flex; */
-    justify-content: center;
-    padding-top: 25px;
-    padding-bottom: 5px;
-    background-color: #1565C0;
 
-    /* background-color:orange; */
-    /* justify-content: flex-end */
-}
 
 /* linkedin-github-resume */
 .flexbox-item-naviconsonly{
