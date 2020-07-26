@@ -1,6 +1,6 @@
 .test{
     background-color: black;
-    height: 600px;
+    /* height: 600px; */
     
 }
 
@@ -35,6 +35,9 @@
    .equalsWhite{
        color: white;
    }
+   .equalsTab{
+       padding-left: 1em;
+   }
    
    .ti{
        text-indent: 25px;
@@ -42,7 +45,7 @@
    .tiThis{
        border: solid yellow 1px;
        /* text-indent: 50px;
-       padding-right: 0 !important;
+       padding-left: 0 !important;
        margin-right: 0 !important; */
    }  
    .tiThat{
@@ -50,9 +53,14 @@
     
 }   
 
-h4{
+.marginRight{
     margin-right: 7px;
 }
+.nopadding{
+  
+    border : 1px white solid;
+}
+
 
 
 
