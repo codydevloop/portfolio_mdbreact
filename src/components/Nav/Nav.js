@@ -26,12 +26,11 @@ class Nav extends React.Component {
         const bgLightBlue = {};
         const bgBlue = { backgroundColor: '#1565C0' }
         return (
-            <div>
                 <Router>
 
                     <MDBNavbar style={bgBlue} dark expand="md" scrolling fixed="top">
                         <MDBNavbarBrand href="/" className="codyMargin">
-                            <p>CODY HOOVER</p>
+                            <p>CODY J HOOVER</p>
                         </MDBNavbarBrand>
                         <MDBNavbarToggler onClick={this.onClick} />
                         <MDBCollapse isOpen={this.state.collapse} navbar>
@@ -50,7 +49,7 @@ class Nav extends React.Component {
                     </MDBNavbar>
                 </Router>
             
-            </div>
+            
         );
     }
 }

@@ -1,4 +1,55 @@
 .test{
-    background-color: #90caf9;
-    height: 450px;
+    background-color: black;
+    height: 600px;
+    
 }
+
+.popularTeal{
+    color:#569CD6;
+   }
+   
+   .popularGreen{
+      color: #4EC9B0; color: rgb(34, 177, 122);
+   }
+   .curlyClass{
+       color:#FFC813;
+   }
+   
+   .functionBrackets{
+       color:#3E9CD6;
+   }
+   
+   .purpleBrackets{
+       color:#7537a8;
+   }
+   .purpleCurly{
+       color:#9556c8;
+   }
+   .objpropKey{
+       color:#67CDFE;
+   }
+   
+   .objpropVal{
+       color: #C3916A;
+   }
+   .equalsWhite{
+       color: white;
+   }
+   
+   .ti{
+       /* text-indent: 25px; */
+   }
+   .tiThis{
+       border: solid yellow 1px;
+       /* text-indent: 50px;
+       padding-right: 0 !important;
+       margin-right: 0 !important; */
+   }  
+   .tiThat{
+    border: solid yellow 1px;
+    
+}   
+
+
+
+
