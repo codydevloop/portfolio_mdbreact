@@ -9,7 +9,7 @@ const AboutMe = () => {
                 <MDBRow className=" background mt-5 pt-5 m">
                     <MDBCol xl="8" className="">
                         <MDBRow>
-                            <MDBCol md="12" className="offset-0">
+                            <MDBCol md="12" className="offset-1">
                                 <div className="d-flex flex-row">
                                     <h4 className="popularTeal mr-2">class</h4>
                                     <h4 className="popularGreen mr-2">CodyHoover</h4>
@@ -18,7 +18,7 @@ const AboutMe = () => {
                             </MDBCol>
                         </MDBRow>
                         <MDBRow>
-                            <MDBCol md="12" className="offset-1">
+                            <MDBCol md="12" className="offset-2">
                                 <div className="d-flex flex-row">
                                     <h4 className="functionBrackets mr-2">constructor</h4>
                                     <h4 className="purpleBrackets mr-2"> ()</h4>
