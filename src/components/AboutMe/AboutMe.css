@@ -37,7 +37,7 @@
    }
    
    .ti{
-       /* text-indent: 25px; */
+       text-indent: 25px;
    }
    .tiThis{
        border: solid yellow 1px;
@@ -49,6 +49,10 @@
     border: solid yellow 1px;
     
 }   
+
+h4{
+    margin-right: 7px;
+}
 
 
 
