@@ -1,0 +1,15 @@
+.background{
+    background-color: #424242 ;
+}
+
+.hrWidth{
+    width: 48%;
+    background-color:gray;
+   
+}
+
+h1{
+    text-align: center;
+    color: gray;
+    font-family: 'Permanent Marker', cursive;
+}

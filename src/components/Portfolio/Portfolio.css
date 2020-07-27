@@ -12,8 +12,15 @@
 .background{
     background-color: #424242 ;
 }
-.titleFont{
+.titleFont {
     font-family: 'Permanent Marker', cursive;
     font-size: 29px;
 }
 
+.whiteHover:hover {
+    border: solid white 1px;
+    background-color: white;
+}
+.cardFont{
+    font-family: 'Permanent Marker', cursive; 
+}

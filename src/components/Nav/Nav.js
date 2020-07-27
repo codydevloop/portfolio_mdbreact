@@ -24,7 +24,7 @@ class Nav extends React.Component {
 
         const container = { height: "1300" }
         const bgLightBlue = {};
-        const bgBlue = { backgroundColor: '#757575' }
+        const bgBlue = { backgroundColor: 'gray' }
         return (
             <div>
                 <Router>

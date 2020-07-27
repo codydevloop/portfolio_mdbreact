@@ -9,11 +9,11 @@ class CodyHoover{
 const AboutMe = () => {
     return (
         <>
-            <MDBContainer fluid  >
-                <MDBRow className=" background mt-5 pt-5 m">
+            <MDBContainer fluid className="background">
+                <MDBRow className="">
                     <MDBCol xl="8" className="">
                         <MDBRow>
-                            <MDBCol md="12" className="offset-1">
+                            <MDBCol md="12" className="offset-1 mt-3">
                                 <div className="d-flex flex-row">
                                     <h4 className="popularTeal mr-2">class</h4>
                                     <h4 className="popularGreen mr-2">CodyHoover</h4>

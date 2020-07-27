@@ -7,10 +7,15 @@ import {
 import './App.css';
 import Home from "./components/Home/Home";
 import Portfolio from "./components/Portfolio/Portfolio";
+
+
+
+
 // import { Container} from 'mdbreact';
 // import GridExamplesPage from "../src/components/GridExamplesPage/GridExamplesPage";
 
 function App() {
+ 
   return (
     <>
       {/* <GridExamplesPage /> */}
@@ -24,8 +29,7 @@ function App() {
       </Router> */}
     <Home />
     <Portfolio />
-
-    </>
+      </>
   );
 }
 
