@@ -1,7 +1,8 @@
 import React from 'react';
 import { MDBCard, MDBCardTitle, MDBBtn, MDBRow, MDBCol, MDBIcon, MDBContainer } from 'mdbreact';
-import Heroku from "../../assets/heroku.png";
+import ReadMeModal from "../ReadMeModal/ReadMeModal";
 import "../Portfolio/Portfolio.css";
+
 const Portfolio = () => {
     return (
         <MDBContainer fluid className="background">
@@ -12,12 +13,14 @@ const Portfolio = () => {
                 <MDBCol md='2' className="card1">
                     <MDBRow>
                         <MDBCol>
-                            <h3 className="">Dine-In or Dine-Out</h3>
+                            <h3 className="titleFont">Dine-In or Dine-Out</h3>
                         </MDBCol>
                     </MDBRow>
                     <MDBRow>
                         <MDBCol>
-                            <i class="fab fa-js-square fa-3x" ></i>
+                            {/* <i class="fab fa-js-square fa-3x" ></i> */}
+                            {/* <i class="fab fa-readme fa-3x"></i> */}
+                            <ReadMeModal />
                         </MDBCol>
                     </MDBRow>
                     <MDBRow>
@@ -40,7 +43,7 @@ const Portfolio = () => {
                 <MDBCol md='3' className="card1">
                     <MDBRow>
                         <MDBCol>
-                            <h3 className="">Dine-In or Dine-Out</h3>
+                            <h3 className="titleFont">Dine-In or Dine-Out</h3>
                         </MDBCol>
                     </MDBRow>
                     <MDBRow>

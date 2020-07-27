@@ -1,7 +1,7 @@
 .card1{
     background-color: gray;
     border: solid 1px black;
-    height: 250px;
+    /* height: 250px; */
     margin: 5px;
     border-radius: 5px;
 }
@@ -11,5 +11,9 @@
 }
 .background{
     background-color: #424242 ;
+}
+.titleFont{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 29px;
 }
 
