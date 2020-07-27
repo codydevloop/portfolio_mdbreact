@@ -2,6 +2,10 @@ import React from 'react';
 import { MDBBtn, MDBCard, MDBRow, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol, MDBContainer } from 'mdbreact';
 import "../AboutMe/AboutMe.css";
 import Cody from "../../assets/CodyPortfolio.png";
+
+class CodyHoover{
+    constructor() {}
+}
 const AboutMe = () => {
     return (
         <>
@@ -22,7 +26,7 @@ const AboutMe = () => {
                                 <div className="d-flex flex-row">
                                     <h4 className="functionBrackets mr-2">constructor</h4>
                                     <h4 className="purpleBrackets mr-2"> ()</h4>
-                                    <h4 className="curlyClass"> {"{"}</h4>
+                                    <h4 className="purpleCurly"> {"{"}</h4>
                                 </div>
                             </MDBCol>
                         </MDBRow>
@@ -221,9 +225,15 @@ const AboutMe = () => {
                             </MDBCol>
                         </MDBRow>
                         <MDBRow>
-                            <MDBCol md="md" className="offset-0">
+                            <MDBCol md="md" className="offset-2">
                                 <div className="d-flex flex-row">
                                     <h4 className="ti2"><span className="purpleCurly"> {"}"}</span></h4>
+                                </div>
+                            </MDBCol>
+                        </MDBRow>
+                        <MDBRow>
+                            <MDBCol md="md" className="offset-1">
+                                <div className="d-flex flex-row">
                                     <h4 className="curlyClass"> {"}"}</h4>
                                 </div>
                             </MDBCol>

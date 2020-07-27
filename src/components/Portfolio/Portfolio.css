@@ -1,0 +1,15 @@
+.card1{
+    background-color: gray;
+    border: solid 1px black;
+    height: 250px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.testArea2{
+    background-color: gray;
+    color: white;
+}
+.background{
+    background-color: #424242 ;
+}
+

@@ -1,173 +1,70 @@
 import React from 'react';
 import { MDBCard, MDBCardTitle, MDBBtn, MDBRow, MDBCol, MDBIcon, MDBContainer } from 'mdbreact';
-
+import Heroku from "../../assets/heroku.png";
+import "../Portfolio/Portfolio.css";
 const Portfolio = () => {
-  return (
-    <MDBContainer>
-    <MDBRow>
-      <MDBCol md='4'>
-        <MDBCard
-          className='card-image'
-          style={{
-            backgroundImage:
-              "url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg')"
-          }}
-        >
-          <div className='text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4'>
-            <div>
-              <h5 className='pink-text'>
-                <MDBIcon icon="hamburger" /> Marketing
-              </h5>
-              <MDBCardTitle tag='h3' className='pt-2'>
-                <strong>This is card title</strong>
-              </MDBCardTitle>
-              <p>
-        
-              </p>
-              <MDBBtn color='pink'>
-                <MDBIcon icon='clone left' /> View project
-              </MDBBtn>
-            </div>
-          </div>
-        </MDBCard>
-      </MDBCol>
+    return (
+        <MDBContainer fluid className="background">
+            {/* First Container */}
+  
+            <MDBRow className="text-center d-flex justify-content-center">
+          
+                <MDBCol md='2' className="card1">
+                    <MDBRow>
+                        <MDBCol>
+                            <h3 className="">Dine-In or Dine-Out</h3>
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol>
+                            <i class="fab fa-js-square fa-3x" ></i>
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol>
+                            <a><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
 
-      <MDBCol md='4'>
-        <MDBCard
-          className='card-image'
-          style={{
-            backgroundImage:
-              "url('https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(47).jpg')"
-          }}
-        >
-          <div className='text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4'>
-            <div>
-              <h5 className='orange-text'>
-                <MDBIcon icon='desktop' /> Software
-              </h5>
-              <MDBCardTitle tag='h3' className='pt-2'>
-                <strong>This is card title</strong>
-              </MDBCardTitle>
-              <p>
+                        </MDBCol>
+                        <MDBCol>
+                            <a><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
+                        </MDBCol>
+                    </MDBRow>
+                </MDBCol>
+               <MDBCol md="2" className="card1">
 
-              </p>
-              <MDBBtn color='deep-orange'>
-                <MDBIcon icon='clone left' /> View project
-              </MDBBtn>
-            </div>
-          </div>
-        </MDBCard>
-      </MDBCol>
-      <MDBCol md='4'>
-        <MDBCard
-          className='card-image'
-          style={{
-            backgroundImage:
-              "url('https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(47).jpg')"
-          }}
-        >
-          <div className='text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4'>
-            <div>
-              <h5 className='orange-text'>
-                <MDBIcon icon='desktop' /> Software
-              </h5>
-              <MDBCardTitle tag='h3' className='pt-2'>
-                <strong>This is card title</strong>
-              </MDBCardTitle>
-              <p>
+               </MDBCol>
+               <MDBCol md='2' className="card1" ></MDBCol>
+            </MDBRow>
 
-              </p>
-              <MDBBtn color='deep-orange'>
-                <MDBIcon icon='clone left' /> View project
-              </MDBBtn>
-            </div>
-          </div>
-        </MDBCard>
-      </MDBCol>
-    </MDBRow>
-    <MDBRow>
-      <MDBCol md='4'>
-        <MDBCard
-          className='card-image'
-          style={{
-            backgroundImage:
-              "url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg')"
-          }}
-        >
-          <div className='text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4'>
-            <div>
-              <h5 className='pink-text'>
-                <MDBIcon icon="hamburger" /> Marketing
-              </h5>
-              <MDBCardTitle tag='h3' className='pt-2'>
-                <strong>This is card title</strong>
-              </MDBCardTitle>
-              <p>
-        
-              </p>
-              <MDBBtn color='pink'>
-                <MDBIcon icon='clone left' /> View project
-              </MDBBtn>
-            </div>
-          </div>
-        </MDBCard>
-      </MDBCol>
+            <MDBRow className="text-center offset-3">
+                <MDBCol md='3' className="card1">
+                    <MDBRow>
+                        <MDBCol>
+                            <h3 className="">Dine-In or Dine-Out</h3>
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol>
+                            <i class="fab fa-js-square fa-3x" ></i>
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol>
+                            <a><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
 
-      <MDBCol md='4'>
-        <MDBCard
-          className='card-image'
-          style={{
-            backgroundImage:
-              "url('https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(47).jpg')"
-          }}
-        >
-          <div className='text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4'>
-            <div>
-              <h5 className='orange-text'>
-                <MDBIcon icon='desktop' /> Software
-              </h5>
-              <MDBCardTitle tag='h3' className='pt-2'>
-                <strong>This is card title</strong>
-              </MDBCardTitle>
-              <p>
+                        </MDBCol>
+                        <MDBCol>
+                            <a><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
+                        </MDBCol>
+                    </MDBRow>
+                </MDBCol>
+               <MDBCol md="3" className="card1">
 
-              </p>
-              <MDBBtn color='deep-orange'>
-                <MDBIcon icon='clone left' /> View project
-              </MDBBtn>
-            </div>
-          </div>
-        </MDBCard>
-      </MDBCol>
-      <MDBCol md='4'>
-        <MDBCard
-          className='card-image'
-          style={{
-            backgroundImage:
-              "url('https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(47).jpg')"
-          }}
-        >
-          <div className='text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4'>
-            <div>
-              <h5 className='orange-text'>
-                <MDBIcon icon='desktop' /> Software
-              </h5>
-              <MDBCardTitle tag='h3' className='pt-2'>
-                <strong>This is card title</strong>
-              </MDBCardTitle>
-              <p>
+               </MDBCol>
 
-              </p>
-              <MDBBtn color='deep-orange'>
-                <MDBIcon icon='clone left' /> View project
-              </MDBBtn>
-            </div>
-          </div>
-        </MDBCard>
-      </MDBCol>
-    </MDBRow>
-    </MDBContainer>
-  )
+            </MDBRow>
+        </MDBContainer>
+    )
 }
 
 export default Portfolio;
