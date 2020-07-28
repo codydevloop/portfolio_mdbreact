@@ -251,6 +251,7 @@ const AboutMe = () => {
                             <MDBCol></MDBCol>
                             <MDBCol  md="9">
                             <div className="mt-5">
+                                <h1>hoover git</h1>
                                 <img src={Cody} className={"img-thumbnail"} alt="thumbnail" />
                             </div>
                             </MDBCol>
