@@ -1,35 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "093caa77af5f0dcd3e1a0583422d28b0",
+    "revision": "7c2fa5fa33ab2dfddb5d75d9bf85b26c",
     "url": "/portfolio_mdbreact/index.html"
   },
   {
-    "revision": "a34fa655e0b051e6d04f",
+    "revision": "46e65bb7c8f64f298c24",
     "url": "/portfolio_mdbreact/static/css/2.4bb3fca5.chunk.css"
   },
   {
-    "revision": "20ebb0b5abcae46cf42c",
-    "url": "/portfolio_mdbreact/static/css/main.21e9c12a.chunk.css"
+    "revision": "9583034b2fd3b0f061a8",
+    "url": "/portfolio_mdbreact/static/css/main.c3a70516.chunk.css"
   },
   {
-    "revision": "a34fa655e0b051e6d04f",
-    "url": "/portfolio_mdbreact/static/js/2.dd18de90.chunk.js"
+    "revision": "46e65bb7c8f64f298c24",
+    "url": "/portfolio_mdbreact/static/js/2.abf9d09b.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/portfolio_mdbreact/static/js/2.dd18de90.chunk.js.LICENSE.txt"
+    "url": "/portfolio_mdbreact/static/js/2.abf9d09b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20ebb0b5abcae46cf42c",
-    "url": "/portfolio_mdbreact/static/js/main.adcb81f4.chunk.js"
+    "revision": "9583034b2fd3b0f061a8",
+    "url": "/portfolio_mdbreact/static/js/main.f6d7eec7.chunk.js"
   },
   {
     "revision": "61168b489eba25fc9392",
     "url": "/portfolio_mdbreact/static/js/runtime-main.b526eaf3.js"
   },
   {
+    "revision": "eebe5f624e2509bbda08cebfec2bf701",
+    "url": "/portfolio_mdbreact/static/media/Burger325x250.eebe5f62.png"
+  },
+  {
     "revision": "9292592578e599c7390811d2ea700dec",
     "url": "/portfolio_mdbreact/static/media/CodyPortfolio.92925925.png"
+  },
+  {
+    "revision": "04c0d0b5f683a1fb2732613344083533",
+    "url": "/portfolio_mdbreact/static/media/Pokemon325x200.04c0d0b5.png"
+  },
+  {
+    "revision": "06941e16e7e5af8399dac7bd9820d13a",
+    "url": "/portfolio_mdbreact/static/media/Project1_325x200.06941e16.png"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
