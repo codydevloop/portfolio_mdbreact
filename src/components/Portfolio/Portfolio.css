@@ -1,7 +1,8 @@
 .card1{
     background-color: gray;
     border: solid 1px black;
-    /* height: 250px; */
+    min-width:275px;
+    max-width: 275px;
     margin: 5px;
     border-radius: 5px;
 }
@@ -9,9 +10,7 @@
     background-color: gray;
     color: white;
 }
-.background{
-    background-color: #424242 ;
-}
+
 .titleFont {
     font-family: 'Permanent Marker', cursive;
     font-size: 29px;
@@ -23,4 +22,30 @@
 }
 .cardFont{
     font-family: 'Permanent Marker', cursive; 
+}
+
+
+.repoDeployFlex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+}
+flexWrap{
+    display: flex;
+    flex-direction: row;
+}
+
+.theCol{
+    /* border: solid yellow 1px; */
+    align-self: center;
+}
+
+.background{
+    background-color: #424242 ;
+    align-items: center;
 }

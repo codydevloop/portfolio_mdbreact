@@ -1,0 +1,13 @@
+i:hover {
+    /* background-color: #9e9e9e; */
+    color: white;
+  }
+
+  h5{
+    text-decoration: underline;
+  }
+
+  .cardFont{
+    font-family: 'Permanent Marker', cursive; 
+ 
+}

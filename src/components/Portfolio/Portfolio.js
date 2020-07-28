@@ -1,78 +1,190 @@
 import React from 'react';
 import { MDBCard, MDBCardTitle, MDBBtn, MDBRow, MDBCol, MDBIcon, MDBContainer } from 'mdbreact';
-import ReadMeModal from "../ReadMeModal/ReadMeModal";
+import ModalDineIn from "../Modals/ModalDineIn";
 import JumboTronPortfolio from "../JumboTronPortfolio/JumboTronPortfolio";
-
+import ModalBurger from "../Modals/ModalBurgers/ModalBurgers";
+import ModalPokemon from "../Modals/ModalPokemon/ModalPokemon";
 import "../Portfolio/Portfolio.css";
 
 const Portfolio = () => {
     return (
         <>
-        <JumboTronPortfolio></JumboTronPortfolio>
-        <MDBContainer fluid className="background">
-            {/* First Container */}
-  
-            <MDBRow className="text-center d-flex justify-content-center">
-          
-                <MDBCol md='2' className="card1">
-                    <MDBRow >
-                        <MDBCol className="mt-2">
-                            <h3 className="titleFont">Dine-In or Dine-Out</h3>
-                            <hr></hr>
-                        </MDBCol>
-                    </MDBRow>
-                    <MDBRow>
-                        <MDBCol className="mt-3">
-                            {/* #### MODAL #### */}
-                            <ReadMeModal />
-                            <p  className="cardFont">README</p>
-                        </MDBCol>
-                    </MDBRow>
-                    <MDBRow>
-                        <MDBCol>
-                           <a href="https://github.com/codydevloop/DineInDineOut-Group-Project" target ="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
-                           <p className="cardFont">REPO</p>
-                        </MDBCol>
-                        <MDBCol>
-                            <a href="https://codydevloop.github.io/DineInDineOut-Group-Project/" target ="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
-                            <p className="cardFont">DEPLOYED</p>
-                        </MDBCol>
+            <JumboTronPortfolio></JumboTronPortfolio>
+
+
+
+
+
+            {/* CUSTOM CARD START */}
+            <MDBRow className="background d-flex flex-row justify-content-center">
+                <MDBCol size="8" className="theCol">
+                    <MDBRow className="text-center d-flex flex-row justify-content-center">
+
+                        {/* DINE-IN DINE-OUT */}
+                        <div className="card1">
+                            <div>
+                                <div className="mt-2">
+                                    <h3 className="titleFont">Dine-In / Dine-Out</h3>
+                                    <hr></hr>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    {/* #### MODAL #### */}
+                                    <ModalDineIn />
+                                    <p className="cardFont">README</p>
+                                </div>
+                            </div>
+                            <div className="repoDeployFlex">
+                                <div>
+                                    <a href="https://github.com/codydevloop/DineInDineOut-Group-Project" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <p className="cardFont">REPO</p>
+                                </div>
+                                <div>
+                                    <a href="https://codydevloop.github.io/DineInDineOut-Group-Project/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
+                                    <p className="cardFont">DEPLOYED</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* DA-BURGER*/}
+                        <div className="card1">
+                            <div>
+                                <div className="mt-2">
+                                    <h3 className="titleFont">EAT-DA-BURGER</h3>
+                                    <hr></hr>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="mt-3">
+                                    {/* #### MODAL #### */}
+                                    <ModalBurger />
+                                    <p className="cardFont">README</p>
+                                </div>
+                            </div>
+                            <div class="repoDeployFlex">
+                                <div>
+                                    <a href="https://github.com/codydevloop/burger" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <p className="cardFont">REPO</p>
+                                </div>
+                                <div class="flexEnd">
+                                    <a href="https://pure-taiga-10288.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
+                                    <p className="cardFont">DEPLOYED</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* POKEMON*/}
+                        <div className="card1">
+                            <div>
+                                <div className="mt-2">
+                                    <h3 className="titleFont">Pokemon-React</h3>
+                                    <hr></hr>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="mt-3">
+                                    {/* #### MODAL #### */}
+                                    <ModalPokemon />
+                                    <p className="cardFont">README</p>
+                                </div>
+                            </div>
+                            <div class="repoDeployFlex">
+                                <div>
+                                    <a href="https://github.com/codydevloop/React_Pokemon" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <p className="cardFont">REPO</p>
+                                </div>
+                                <div class="flexEnd">
+                                    <a href="https://codydevloop.github.io/React_Pokemon/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <p className="cardFont">DEPLOYED</p>
+                                </div>
+                            </div>
+                        </div>
+                          {/* 88*/}
+                        <div className="card1">
+                            <div>
+                                <div className="mt-2">
+                                    <h3 className="titleFont">Dine-In or Dine-Out</h3>
+                                    <hr></hr>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="mt-3">
+                                    {/* #### MODAL #### */}
+                                    <ModalDineIn />
+                                    <p className="cardFont">README</p>
+                                </div>
+                            </div>
+                            <div class="repoDeployFlex">
+                                <div>
+                                    <a href="https://github.com/codydevloop/DineInDineOut-Group-Project" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <p className="cardFont">REPO</p>
+                                </div>
+                                <div class="flexEnd">
+                                    <a href="https://codydevloop.github.io/DineInDineOut-Group-Project/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
+                                    <p className="cardFont">DEPLOYED</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card1">
+                            <div>
+                                <div className="mt-2">
+                                    <h3 className="titleFont">Dine-In or Dine-Out</h3>
+                                    <hr></hr>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="mt-3">
+                                    {/* #### MODAL #### */}
+                                    <ModalDineIn />
+                                    <p className="cardFont">README</p>
+                                </div>
+                            </div>
+                            <div class="repoDeployFlex">
+                                <div>
+                                    <a href="https://github.com/codydevloop/DineInDineOut-Group-Project" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <p className="cardFont">REPO</p>
+                                </div>
+                                <div class="flexEnd">
+                                    <a href="https://codydevloop.github.io/DineInDineOut-Group-Project/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
+                                    <p className="cardFont">DEPLOYED</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card1">
+                            <div>
+                                <div className="mt-2">
+                                    <h3 className="titleFont">Dine-In or Dine-Out</h3>
+                                    <hr></hr>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="mt-3">
+                                    {/* #### MODAL #### */}
+                                    <ModalDineIn />
+                                    <p className="cardFont">README</p>
+                                </div>
+                            </div>
+                            <div class="repoDeployFlex">
+                                <div>
+                                    <a href="https://github.com/codydevloop/DineInDineOut-Group-Project" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <p className="cardFont">REPO</p>
+                                </div>
+                                <div class="flexEnd">
+                                    <a href="https://codydevloop.github.io/DineInDineOut-Group-Project/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
+                                    <p className="cardFont">DEPLOYED</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </MDBRow>
                 </MDBCol>
-               <MDBCol md="2" className="card1">
-
-               </MDBCol>
-               <MDBCol md='2' className="card1" ></MDBCol>
             </MDBRow>
 
-            <MDBRow className="text-center offset-3">
-                <MDBCol md='3' className="card1">
-                    <MDBRow>
-                        <MDBCol>
-                            <h3 className="titleFont">Dine-In or Dine-Out</h3>
-                        </MDBCol>
-                    </MDBRow>
-                    <MDBRow>
-                        <MDBCol>
-                            <i class="fab fa-js-square fa-3x" ></i>
-                        </MDBCol>
-                    </MDBRow>
-                    <MDBRow>
-                        <MDBCol>
-                            <a><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
 
-                        </MDBCol>
-                        <MDBCol>
-                            <a><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
-                        </MDBCol>
-                    </MDBRow>
-                </MDBCol>
-               <MDBCol md="3" className="card1">
 
-               </MDBCol>
 
-            </MDBRow>
-        </MDBContainer>
+
         </>
     )
 }

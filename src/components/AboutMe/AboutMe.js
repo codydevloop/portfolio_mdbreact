@@ -11,8 +11,10 @@ const AboutMe = () => {
         <>
             <MDBContainer fluid className="background">
                 <MDBRow className="">
-                    <MDBCol xl="8" className="">
+                    {/* ---> MAKE IT ALL FIT IN 8 COL WIDTH -- CHECK AGAIN */}
+                    <MDBCol size="8" className="">
                         <MDBRow>
+                            {/* ---> MAKE IT ALL FIT IN 12 COL WIDTH */}
                             <MDBCol md="12" className="offset-1 mt-3">
                                 <div className="d-flex flex-row">
                                     <h4 className="popularTeal mr-2">class</h4>
@@ -22,6 +24,7 @@ const AboutMe = () => {
                             </MDBCol>
                         </MDBRow>
                         <MDBRow>
+                             {/* ---> MAKE IT ALL FIT IN 12 COL WIDTH */}
                             <MDBCol md="12" className="offset-2">
                                 <div className="d-flex flex-row">
                                     <h4 className="functionBrackets mr-2">constructor</h4>
@@ -46,8 +49,11 @@ const AboutMe = () => {
                             </MDBCol>
                         </MDBRow> */}
                         <MDBRow>
-                            {/* Showing and hiding differently styped elements base on breakpoints */}
-                            {/* only applied to the "this.xxxx" components */}
+                            {/* CREATING TWO ELEMENTS TO HIDE/SHOW FOR 'this.xxxx' DIVS ONLY.
+                            SEE OPTION #1 AND #2 BELOW.  THIS REPEATS FOR THE REST OF THE ROWS
+                            EXCEPT THE VERY LAST ONE */}
+
+                            {/* OPTION #1  */}
                             <MDBCol md="6" className="d-none d-md-block">
                               <div className="d-flex flex-row justify-content-end">
                                     <h4 className="popularTeal">this</h4>
@@ -55,6 +61,7 @@ const AboutMe = () => {
                                     <h4 className="equalsWhite equalsTab">=</h4>
                              </div>
                             </MDBCol>
+                            {/* OPTION #2  */}
                             <MDBCol md="6" className="d-md-none">
                               <div className="d-flex flex-row">
                                     <h4 className="popularTeal">this</h4>
@@ -225,7 +232,7 @@ const AboutMe = () => {
                             </MDBCol>
                         </MDBRow>
                         <MDBRow>
-                            <MDBCol md="md" className="offset-2">
+                            <MDBCol md="12" className="offset-2">
                                 <div className="d-flex flex-row">
                                     <h4 className="ti2"><span className="purpleCurly"> {"}"}</span></h4>
                                 </div>
@@ -239,7 +246,7 @@ const AboutMe = () => {
                             </MDBCol>
                         </MDBRow>
                     </MDBCol>
-                    <MDBCol md="4" className="">
+                    <MDBCol lg="4" className="d-flex flex-row justify-content-center">
                         <MDBRow>
                             <MDBCol></MDBCol>
                             <MDBCol  md="9">
