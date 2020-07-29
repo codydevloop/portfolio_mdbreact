@@ -9,6 +9,7 @@ const JumbotronPage = () => {
                     <hr className="hrWidth"></hr>
                     <h1 className="portfolio">PORTFOLIO</h1>
                     <hr className="hrWidth"></hr>
+                    <h6>this.portfolio = 'built with React'</h6>
                 </MDBCol>
             </MDBRow>
         </MDBContainer>

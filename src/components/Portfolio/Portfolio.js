@@ -20,89 +20,11 @@ const Portfolio = () => {
                 <MDBCol size="10" className="theCol">
                     <MDBRow className="text-center d-flex flex-row justify-content-center">
 
-                        {/* DINE-IN DINE-OUT */}
-                        <div className="card1 col-md-3 my-3 mx-3">
-                            <div>
-                                <div className="mt-2">
-                                    <h3 className="titleFont">Dine-In/Dine-Out</h3>
-                                    <hr></hr>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    {/* #### MODAL #### */}
-                                    <ModalDineIn />
-                                    <p className="cardFont">README</p>
-                                </div>
-                            </div>
-                            <div className="repoDeployFlex">
-                                <div>
-                                    <a href="https://github.com/codydevloop/DineInDineOut-Group-Project" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
-                                    <p className="cardFont">REPO</p>
-                                </div>
-                                <div>
-                                    <a href="https://codydevloop.github.io/DineInDineOut-Group-Project/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
-                                    <p className="cardFont">DEPLOYED</p>
-                                </div>
-                            </div>
-                        </div>
-                        {/* DA-BURGER*/}
-                        <div className="card1 col-md-3 my-3 mx-3">
-                            <div>
-                                <div className="mt-2">
-                                    <h3 className="titleFont">EAT-DA-BURGER</h3>
-                                    <hr></hr>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="mt-3">
-                                    {/* #### MODAL #### */}
-                                    <ModalBurger />
-                                    <p className="cardFont">README</p>
-                                </div>
-                            </div>
-                            <div class="repoDeployFlex">
-                                <div>
-                                    <a href="https://github.com/codydevloop/burger" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
-                                    <p className="cardFont">REPO</p>
-                                </div>
-                                <div class="flexEnd">
-                                    <a href="https://pure-taiga-10288.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
-                                    <p className="cardFont">DEPLOYED</p>
-                                </div>
-                            </div>
-                        </div>
-                        {/* POKEMON*/}
-                        <div className="card1 col-md-3 my-3 mx-3">
-                            <div>
-                                <div className="mt-2">
-                                    <h3 className="titleFont">Pokemon-React</h3>
-                                    <hr></hr>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="mt-3">
-                                    {/* #### MODAL #### */}
-                                    <ModalPokemon />
-                                    <p className="cardFont">README</p>
-                                </div>
-                            </div>
-                            <div class="repoDeployFlex">
-                                <div>
-                                    <a href="https://github.com/codydevloop/React_Pokemon" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
-                                    <p className="cardFont">REPO</p>
-                                </div>
-                                <div class="flexEnd">
-                                    <a href="https://codydevloop.github.io/React_Pokemon/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
-                                    <p className="cardFont">DEPLOYED</p>
-                                </div>
-                            </div>
-                        </div>
                           {/* WORKOUT TRACKER*/}
                         <div className="card1 col-md-3 my-3 mx-3">
                             <div>
                                 <div className="mt-2">
-                                    <h3 className="titleFont">Workout-Tracker</h3>
+                                    <h3 className="titleFont">WORKOUT LOG</h3>
                                     <hr></hr>
                                 </div>
                             </div>
@@ -124,6 +46,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
+
                         {/* MOVIE DB*/}             
                         <div className="card1 col-md-3 my-3 mx-3">
                             <div>
@@ -150,11 +73,92 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
+
+                         {/* DA-BURGER*/}
+                         <div className="card1 col-md-3 my-3 mx-3">
+                            <div>
+                                <div className="mt-2">
+                                    <h3 className="titleFont">EAT-DA-BURGER</h3>
+                                    <hr></hr>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="mt-3">
+                                    {/* #### MODAL #### */}
+                                    <ModalBurger />
+                                    <p className="cardFont">README</p>
+                                </div>
+                            </div>
+                            <div class="repoDeployFlex">
+                                <div>
+                                    <a href="https://github.com/codydevloop/burger" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <p className="cardFont">REPO</p>
+                                </div>
+                                <div class="flexEnd">
+                                    <a href="https://pure-taiga-10288.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
+                                    <p className="cardFont">DEPLOYED</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* DINE-IN DINE-OUT */}
+                        <div className="card1 col-md-3 my-3 mx-3">
+                            <div>
+                                <div className="mt-2">
+                                    <h3 className="titleFont">DINE-IN/OUT</h3>
+                                    <hr></hr>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    {/* #### MODAL #### */}
+                                    <ModalDineIn />
+                                    <p className="cardFont">README</p>
+                                </div>
+                            </div>
+                            <div className="repoDeployFlex">
+                                <div>
+                                    <a href="https://github.com/codydevloop/DineInDineOut-Group-Project" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <p className="cardFont">REPO</p>
+                                </div>
+                                <div>
+                                    <a href="https://codydevloop.github.io/DineInDineOut-Group-Project/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
+                                    <p className="cardFont">DEPLOYED</p>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        {/* POKEMON*/}
+                        <div className="card1 col-md-3 my-3 mx-3">
+                            <div>
+                                <div className="mt-2">
+                                    <h3 className="titleFont">REACT/POKEMON</h3>
+                                    <hr></hr>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="mt-3">
+                                    {/* #### MODAL #### */}
+                                    <ModalPokemon />
+                                    <p className="cardFont">README</p>
+                                </div>
+                            </div>
+                            <div class="repoDeployFlex">
+                                <div>
+                                    <a href="https://github.com/codydevloop/React_Pokemon" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <p className="cardFont">REPO</p>
+                                </div>
+                                <div class="flexEnd">
+                                    <a href="https://codydevloop.github.io/React_Pokemon/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <p className="cardFont">DEPLOYED</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                         {/* Zillow Clone*/}  
                         <div className="card1 col-md-3 my-3 mx-3">
                             <div>
                                 <div className="mt-2">
-                                    <h3 className="titleFont">WIP - Zillow Clone</h3>
+                                    <h3 className="titleFont">WIP-Zillow Clone</h3>
                                     <hr></hr>
                                 </div>
                             </div>

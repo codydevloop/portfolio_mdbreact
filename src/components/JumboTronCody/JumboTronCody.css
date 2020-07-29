@@ -10,6 +10,12 @@
 
 h1{
     text-align: center;
-    color: gray;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.noUnderline {
+    text-align: center;
+    color: white;
     font-family: 'Permanent Marker', cursive;
 }
