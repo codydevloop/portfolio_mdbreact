@@ -1,7 +1,12 @@
 
 .link{
     margin: 5px;
+    font-size: 20px;
    
+}
+
+.name{
+    font-size: 25px;
 }
 .codyMargin{
     margin-left: 5em;
@@ -13,28 +18,14 @@
  
 }   
 
-.fa-css3-alt{
-    color: blue;
-}
-
-/* style FontAwesome HTML icon */
-
-.fa-html5{
-    color: orangered;
-}
 
 
-.fa-js-square{
-    color:yellow;
-}
 
-.cardHeightOnIndex{
-    height: 350px;
-}
-.copy{
-    color: white;
-    margin-top: 20px; 
-}
+
+
+
+
+
 
 
 

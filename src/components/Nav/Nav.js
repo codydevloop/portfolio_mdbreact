@@ -31,7 +31,7 @@ class Nav extends React.Component {
 
                     <MDBNavbar style={bgBlue} dark expand="md" scrolling fixed="top">
                         <MDBNavbarBrand href="/" className="codyMargin">
-                            <p>CODY HOOVER</p>
+                            <p className='name'>CODY HOOVER</p>
                         </MDBNavbarBrand>
                         <MDBNavbarToggler onClick={this.onClick} />
                         <MDBCollapse isOpen={this.state.collapse} navbar>

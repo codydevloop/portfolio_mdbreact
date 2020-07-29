@@ -2,6 +2,8 @@ import React from 'react';
 import { MDBIcon, MDBBtn, MDBCard, MDBRow, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol, MDBContainer } from 'mdbreact';
 import "../Contact/Contact.css";
 
+import FooterPage from "../Footer/Footer";
+
 
 const Contact = () => {
     return (
@@ -30,6 +32,7 @@ const Contact = () => {
                     <MDBCol className="d-none d-md-block"></MDBCol>
                 </MDBRow>
             </MDBContainer>
+            <FooterPage ></FooterPage>
         </>
 
     )

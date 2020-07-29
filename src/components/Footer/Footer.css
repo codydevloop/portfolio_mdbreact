@@ -1,0 +1,18 @@
+.backgroundFooter{
+    background-color: #212121 ;
+  
+}
+.centerContent{
+   
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+    
+}
+
+.icons{
+   padding:10px; 
+   color: white;
+   font-size: 40px;
+}
