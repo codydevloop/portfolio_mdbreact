@@ -1,10 +1,10 @@
 import React, { Component, MDBTooltip } from 'react';
 import { MDBContainer, MDBImage, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
-import "../Modals/ModalDineIn.css";
-import dine from "../../assets/Project1_325x200.png";
+import WorkoutTrackerPic from "../../../assets/workout325x200.png";
 
 
-class ModalDineIn extends Component {
+
+class ModalWorkoutTracker extends Component {
 
 
   state = {
@@ -28,19 +28,19 @@ class ModalDineIn extends Component {
           <i class="fab fa-readme fa-3x" onClick={this.toggle(14)}></i>
 
           <MDBModal isOpen={this.state.modal14} toggle={this.toggle(14)} centered>
-            <MDBModalHeader toggle={this.toggle(14)} className="cardFont">Dine-In or Dine-Out</MDBModalHeader>
+            <MDBModalHeader toggle={this.toggle(14)} className="cardFont">Workout-Tracker</MDBModalHeader>
             <MDBModalBody>
-              <h5>Frameworks/Libraries</h5>
-              <p>CSS | UIKit | jQuery | .ajax | moment.js | AOS</p>
-              <h5>Server-side API</h5>
-              <p>Zomato | Edamam | Open Weather</p>
+              <h5>Frameworks/Libraries/Concepts</h5>
+              <p>MongoDB | Node/Express | JavaScript | CSS/HTML | CRUD API Routes | MVC </p>
+              <h5>NPM Dependencies</h5>
+              <p>express | mongoose </p>
 
             </MDBModalBody>
             <MDBModalFooter center>
               <h5>Description</h5>
-              <p>I want an application that will search and display a list of recipes based on a search term that I provide.</p>
-              <p>As a user who also enjoys dining out, the application should also return a list of local restaurants that relate to my recipe search term. I, the user, will provide a zip code to determine locality.</p>
-              <img src={dine}></img>
+              <p>This full stack app is deployed on Heroku and utilizes mLab MongoDB. The project focused on building API routes and constructing the mongoose ODM schema.</p>
+              <p>The application can accept user input for either Cardio or Resistance.  You are able to add multiple workouts a day.  The dashboard page displays nice graphs of the weeks aggregates</p>
+              <img src={WorkoutTrackerPic}></img>
               {/* <h5>User Story</h5> */}
             </MDBModalFooter>
           </MDBModal>
@@ -52,4 +52,4 @@ class ModalDineIn extends Component {
   }
 }
 
-export default ModalDineIn;
+export default ModalWorkoutTracker;

@@ -1,0 +1,26 @@
+.background{
+    background-color: #424242 ;
+    /* height: 600px; */
+  
+   
+    
+}
+
+.phoneInfo{
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 10px;
+    
+}
+
+.rowBorder{
+    border: solid black 1px;
+    display: flex;
+    
+}
+
+.colBorder{
+    border: solid yellow 1px;
+}

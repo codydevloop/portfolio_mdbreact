@@ -1,12 +1,4 @@
-/* style GoogleFont */
 
-/* body{
-    font-family: 'Roboto Slab', sans-serif;
-    background: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/purty_wood.png");
-    
-} */
-
-/* style FontAwesome CSS icon */
 .link{
     margin: 5px;
    
@@ -19,10 +11,7 @@
  /* border: solid red 1px; */
     margin-right: 5em;
  
-}
-
-    
-
+}   
 
 .fa-css3-alt{
     color: blue;
@@ -49,15 +38,4 @@
 
 
 
-/* linkedin-github-resume */
-.flexbox-item-naviconsonly{
-    display: flex;
-    justify-content: space-around;
-}
 
-
-
-.flexbox-item-phoneinfo{
-  display: flex;
-  justify-content: center;
-}

@@ -2,9 +2,9 @@ import React, { Component, MDBTooltip } from 'react';
 import { MDBContainer, MDBImage, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 import PokemonPic from "../../../assets/Pokemon325x200.png";
 
+import Wash from "../../../assets/WashburnSearch.png"
 
-
-class ModalPokemon extends Component {
+class ModalZillow extends Component {
 
 
   state = {
@@ -28,19 +28,19 @@ class ModalPokemon extends Component {
           <i class="fab fa-readme fa-3x" onClick={this.toggle(14)}></i>
 
           <MDBModal isOpen={this.state.modal14} toggle={this.toggle(14)} centered>
-            <MDBModalHeader toggle={this.toggle(14)} className="cardFont">Pokemon-React</MDBModalHeader>
+            <MDBModalHeader toggle={this.toggle(14)} className="cardFont">Zillow Clone</MDBModalHeader>
             <MDBModalBody>
               <h5>Frameworks/Libraries/Concepts</h5>
-              <p>React | Node/Express | JavaScript | props | state | Bootstrap</p>
+              <p>React | Node/Express | JavaScript | MongoDB | Leaflet | Auth0</p>
               <h5>NPM Dependencies</h5>
-              <p>React | React-DOM | React-Bootstrap</p>
+              <p>  mdbreact | mongoose</p>
 
             </MDBModalBody>
             <MDBModalFooter center>
               <h5>Description</h5>
-              <p>This React-Bootstrap App displays Pokemon data that is stored locally in a .json file. The App allows the user to Sort Pokeman alphabetically or reverse by clicking the "Names" button. It also has a drop down button filter for the "Type" column.</p>
+              <p>This idea hear is to build a Zillow clone.  Have user login functionality.  The ability to save favorites.  And an admin section for the realator to view user favorites.</p>
               <p></p>
-              <img src={PokemonPic}></img>
+              <img src={Wash}></img>
               {/* <h5>User Story</h5> */}
             </MDBModalFooter>
           </MDBModal>
@@ -52,4 +52,4 @@ class ModalPokemon extends Component {
   }
 }
 
-export default ModalPokemon;
+export default ModalZillow;

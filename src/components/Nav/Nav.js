@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBContainer, MDBRow, MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon, MDBCol } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
-import "../Nav/Nav.css"
+import "./Nav.css"
 import AboutMe from "../AboutMe/AboutMe";
 
 class Nav extends React.Component {
@@ -24,7 +24,7 @@ class Nav extends React.Component {
 
         const container = { height: "1300" }
         const bgLightBlue = {};
-        const bgBlue = { backgroundColor: 'gray' }
+        const bgBlue = { backgroundColor: '#212121' }
         return (
             <div>
                 <Router>

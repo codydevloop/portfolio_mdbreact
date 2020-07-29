@@ -3,9 +3,6 @@ import { MDBBtn, MDBCard, MDBRow, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCa
 import "../AboutMe/AboutMe.css";
 import Cody from "../../assets/CodyPortfolio.png";
 
-class CodyHoover{
-    constructor() {}
-}
 const AboutMe = () => {
     return (
         <>
@@ -33,21 +30,7 @@ const AboutMe = () => {
                                 </div>
                             </MDBCol>
                         </MDBRow>
-                        {/* <MDBRow>
-                            <MDBCol md="6">
-                                <div className="d-flex flex-row justify-content-end">
-                                    <h4 className="popularTeal">this</h4>
-                                    <h4 className="objpropKey">.bootcampMERN</h4>
-                                    <h4 className="equalsWhite equalsTab">=</h4>
-                                </div>
-                            </MDBCol>
-                            <MDBCol md="6">
-                                <div className="d-flex flex-row justify-content-start">
-                                    <h4 className="objpropVal">`Completion Date 8/21/20`</h4>
-                                    <h4 className="equalsWhite">;</h4>
-                                </div>
-                            </MDBCol>
-                        </MDBRow> */}
+
                         <MDBRow>
                             {/* CREATING TWO ELEMENTS TO HIDE/SHOW FOR 'this.xxxx' DIVS ONLY.
                             SEE OPTION #1 AND #2 BELOW.  THIS REPEATS FOR THE REST OF THE ROWS
@@ -251,7 +234,6 @@ const AboutMe = () => {
                             <MDBCol></MDBCol>
                             <MDBCol  md="9">
                             <div className="mt-5">
-                                <h1>hoover git</h1>
                                 <img src={Cody} className={"img-thumbnail"} alt="thumbnail" />
                             </div>
                             </MDBCol>
