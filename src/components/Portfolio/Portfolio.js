@@ -37,11 +37,11 @@ const Portfolio = () => {
                             </div>
                             <div class="repoDeployFlex">
                                 <div>
-                                    <a href="https://codydevloop-workout-tracker.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <a href="https://github.com/codydevloop/MongoDBWorkoutTracker"  target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
                                     <p className="cardFont">REPO</p>
                                 </div>
                                 <div class="flexEnd">
-                                    <a href="https://github.com/codydevloop/MongoDBWorkoutTracker" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
+                                    <a href="https://codydevloop-workout-tracker.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
                                     <p className="cardFont">DEPLOYED</p>
                                 </div>
                             </div>

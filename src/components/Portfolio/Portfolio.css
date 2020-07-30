@@ -13,7 +13,7 @@
 }
 
 .titleFont {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
     font-size: 29px;
 }
 
@@ -22,7 +22,7 @@
     background-color: white;
 }
 .cardFont{
-    font-family: 'Permanent Marker', cursive; 
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
 }
 
 
