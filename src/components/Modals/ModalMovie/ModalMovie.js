@@ -1,6 +1,7 @@
 import React, { Component, MDBTooltip } from 'react';
 import { MDBContainer, MDBImage, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 import MoviedDBPic from "../../../assets/moviedb325x200.png";
+import "../ModalMovie/ModalMovie.css";
 
 
 
@@ -29,7 +30,7 @@ class ModalMovie extends Component {
 
           <MDBModal isOpen={this.state.modal14} toggle={this.toggle(14)} centered>
             <MDBModalHeader toggle={this.toggle(14)} className="cardFont">The MovieDB</MDBModalHeader>
-            <MDBModalBody>
+            <MDBModalBody >
               <h5>Frameworks/Libraries/Concepts</h5>
               <p>MySQL | Node/Express | JavaScript | MVC | DB Modal | MVC | API routes</p>
               <h5>NPM Dependencies</h5>
@@ -37,7 +38,7 @@ class ModalMovie extends Component {
 
             </MDBModalBody>
             <MDBModalFooter center>
-              <h5>This full stack app is hosted on Heroku with mLab JawsDB.</h5>
+              <p>This full stack app is hosted on Heroku with mLab JawsDB.</p>
               <h5>Functionality</h5>
               <p>The Movie DB is a movie recommendation website that let's helps 
                   you create a list of movie titles, each identified by Likes, 

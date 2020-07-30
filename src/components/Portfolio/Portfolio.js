@@ -21,7 +21,7 @@ const Portfolio = () => {
                     <MDBRow className="text-center d-flex flex-row justify-content-center">
 
                           {/* WORKOUT TRACKER*/}
-                        <div className="card1 col-md-3 my-3 mx-3">
+                        <div className="card1 col-md-3 m-5">
                             <div>
                                 <div className="mt-2">
                                     <h3 className="titleFont">WORKOUT LOG</h3>
@@ -48,7 +48,7 @@ const Portfolio = () => {
                         </div>
 
                         {/* MOVIE DB*/}             
-                        <div className="card1 col-md-3 my-3 mx-3">
+                        <div className="card1 col-md-3  m-5">
                             <div>
                                 <div className="mt-2">
                                     <h3 className="titleFont">THE MOVIE DB</h3>
@@ -75,7 +75,7 @@ const Portfolio = () => {
                         </div>
 
                          {/* DA-BURGER*/}
-                         <div className="card1 col-md-3 my-3 mx-3">
+                         <div className="card1 col-md-3  m-5">
                             <div>
                                 <div className="mt-2">
                                     <h3 className="titleFont">EAT-DA-BURGER</h3>
@@ -101,7 +101,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                         {/* DINE-IN DINE-OUT */}
-                        <div className="card1 col-md-3 my-3 mx-3">
+                        <div className="card1 col-md-3 m-5">
                             <div>
                                 <div className="mt-2">
                                     <h3 className="titleFont">DINE-IN/OUT</h3>
@@ -128,7 +128,7 @@ const Portfolio = () => {
                         </div>
                        
                         {/* POKEMON*/}
-                        <div className="card1 col-md-3 my-3 mx-3">
+                        <div className="card1 col-md-3 m-5">
                             <div>
                                 <div className="mt-2">
                                     <h3 className="titleFont">REACT/POKEMON</h3>
@@ -155,7 +155,7 @@ const Portfolio = () => {
                         </div>
                         
                         {/* Zillow Clone*/}  
-                        <div className="card1 col-md-3 my-3 mx-3">
+                        <div className="card1 col-md-3 m-5">
                             <div>
                                 <div className="mt-2">
                                     <h3 className="titleFont">WIP-Zillow Clone</h3>
