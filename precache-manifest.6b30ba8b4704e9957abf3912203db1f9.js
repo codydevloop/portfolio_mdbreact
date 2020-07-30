@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "099a9e1650747d4c71d0fd354223a7d9",
+    "revision": "392e845a4302a51bf01bf70aefe3a84a",
     "url": "/portfolio_mdbreact/index.html"
   },
   {
-    "revision": "7a8279b6b4fa2d0b09d1",
+    "revision": "fcdf6339b68ffa9a1186",
     "url": "/portfolio_mdbreact/static/css/2.4bb3fca5.chunk.css"
   },
   {
-    "revision": "0d46ecb352022f2ba20a",
-    "url": "/portfolio_mdbreact/static/css/main.4b6fd263.chunk.css"
+    "revision": "092964e9c9442bb95336",
+    "url": "/portfolio_mdbreact/static/css/main.f12b647d.chunk.css"
   },
   {
-    "revision": "7a8279b6b4fa2d0b09d1",
-    "url": "/portfolio_mdbreact/static/js/2.6789404a.chunk.js"
+    "revision": "fcdf6339b68ffa9a1186",
+    "url": "/portfolio_mdbreact/static/js/2.5bd6f784.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/portfolio_mdbreact/static/js/2.6789404a.chunk.js.LICENSE.txt"
+    "url": "/portfolio_mdbreact/static/js/2.5bd6f784.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d46ecb352022f2ba20a",
-    "url": "/portfolio_mdbreact/static/js/main.f7e042c4.chunk.js"
+    "revision": "092964e9c9442bb95336",
+    "url": "/portfolio_mdbreact/static/js/main.ed7bf926.chunk.js"
   },
   {
     "revision": "61168b489eba25fc9392",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eebe5f624e2509bbda08cebfec2bf701",
     "url": "/portfolio_mdbreact/static/media/Burger325x250.eebe5f62.png"
+  },
+  {
+    "revision": "ee37fd3660c7513ad15ffdb7bbbf163e",
+    "url": "/portfolio_mdbreact/static/media/CHLHHResPE.ee37fd36.pdf"
   },
   {
     "revision": "9292592578e599c7390811d2ea700dec",
