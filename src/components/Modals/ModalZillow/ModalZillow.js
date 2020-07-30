@@ -38,7 +38,7 @@ class ModalZillow extends Component {
             </MDBModalBody>
             <MDBModalFooter center>
               <h5>Description</h5>
-              <p>This idea hear is to build a Zillow clone.  Have user login functionality.  The ability to save favorites.  And an admin section for the realator to view user favorites.</p>
+              <p>This idea here is to build a Zillow clone.  Have user login functionality.  The ability to save favorites.  And an admin section for the realator to view user favorites.</p>
               <p></p>
               <img src={Wash}></img>
               {/* <h5>User Story</h5> */}

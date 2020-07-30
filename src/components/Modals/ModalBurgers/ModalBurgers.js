@@ -38,7 +38,7 @@ class ModalBurger extends Component {
             </MDBModalBody>
             <MDBModalFooter center>
               <h5>Description</h5>
-              <p>This full stack application is deployed on Heroku with JawsDB.  The project understanding and working with the MVC model.</p>
+              <p>This full stack application is deployed on Heroku with JawsDB.  The project focus was understanding and working with the MVC model.</p>
               <p>The application is a Burger logger.  It allows you to add new burgers to the list and eventually eat them.  Each action makes requests to the DB and updates to the display.</p>
               <p>**WARNING - app loads slow due to Heroku and the 'Huge' background file I used</p>
               <img src={Burger}></img>

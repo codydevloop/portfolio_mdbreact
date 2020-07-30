@@ -28,12 +28,12 @@ class ModalMovie extends Component {
           <i class="fab fa-readme fa-3x" onClick={this.toggle(14)}></i>
 
           <MDBModal isOpen={this.state.modal14} toggle={this.toggle(14)} centered>
-            <MDBModalHeader toggle={this.toggle(14)} className="cardFont">Workout-Tracker</MDBModalHeader>
+            <MDBModalHeader toggle={this.toggle(14)} className="cardFont">The MovieDB</MDBModalHeader>
             <MDBModalBody>
               <h5>Frameworks/Libraries/Concepts</h5>
               <p>MySQL | Node/Express | JavaScript | MVC | DB Modal | MVC | API routes</p>
               <h5>NPM Dependencies</h5>
-              <p> mysql2/sequelize | passport/passport-jwt | bcrypt | handlebars | axios | </p>
+              <p> mysql2/sequelize | passport/passport-jwt | bcrypt | handlebars | axios  </p>
 
             </MDBModalBody>
             <MDBModalFooter center>
