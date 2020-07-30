@@ -1,8 +1,11 @@
 import React from 'react';
-import { MDBContainer, MDBRow, MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon, MDBCol } from 'mdbreact';
+import { MDBContainer, MDBLink, MDBRow, MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon, MDBCol } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import "./Nav.css"
-import AboutMe from "../AboutMe/AboutMe";
+
+import { Link, animateScroll as scroll } from "react-scroll";
+
+
 
 class Nav extends React.Component {
     constructor(props) {
@@ -30,27 +33,58 @@ class Nav extends React.Component {
                 <Router>
 
                     <MDBNavbar style={bgBlue} dark expand="md" scrolling fixed="top">
-                        <MDBNavbarBrand href="/" className="codyMargin">
+                        <MDBNavbarBrand className="codyMargin">
                             <p className='name'>CODY HOOVER</p>
                         </MDBNavbarBrand>
                         <MDBNavbarToggler onClick={this.onClick} />
                         <MDBCollapse isOpen={this.state.collapse} navbar>
                             <MDBNavbarNav right className="linkgroup">
-                                <MDBNavItem>
-                                    <MDBNavLink to="#" className="link">PORTFOLIO</MDBNavLink>
+                                <div className="myStyle">
+                                    <Link
+                                        activeClass="active"
+                                        to="AboutScrollTag"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration={1000}
+                                        className="linkgroup"
+                                    >ABOUT</Link>
+                                    <Link
+                                        activeClass="active"
+                                        to="PortfolioScrollTag"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration={1000}
+                                        className="linkgroup"
+                                    >PORTFOLIO</Link>
+                                <Link
+                                    activeClass="active"
+                                    to="ContactScrollTag"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={1000}
+                                    className="linkgroup"
+
+                                >CONTACT </Link>
+                                </div>
+                                
+                            {/* <MDBNavItem>
+                                    <MDBNavLink to="/Portfolio" className="link" >PORTFOLIO</MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
                                     <MDBNavLink to="#" className="link">ABOUT</MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBNavLink to="#" className="link">CONTACT</MDBNavLink>
-                                </MDBNavItem>
+                                    <MDBNavLink to="contact" className="link">CONTACT</MDBNavLink>
+                                </MDBNavItem> */}
                             </MDBNavbarNav>
                         </MDBCollapse>
                     </MDBNavbar>
                 </Router>
-            
-            </div>
+
+            </div >
         );
     }
 }

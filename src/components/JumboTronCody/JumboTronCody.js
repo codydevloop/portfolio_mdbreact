@@ -3,7 +3,7 @@ import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBCardTitle, MDBIc
 import "../JumboTronCody/JumboTronCody.css";
 const JumbotronCody = () => {
     return (
-        <MDBContainer fluid className="background mt-5 pt-5 m">
+        <MDBContainer fluid className="background mt-5 pt-5 m" id="AboutScrollTag">
             <MDBRow >
                 <MDBCol className="my-5">
                     {/* <hr className="hrWidth"></hr> */}

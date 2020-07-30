@@ -17,20 +17,19 @@ import Contact from "./components/Contact/Contact";
 function App() {
  
   return (
+    
     <>
-      {/* <GridExamplesPage /> */}
-
-      {/* <Router>
-        <Switch>
-          <Route exact path="/portfolio_mdbreact" component={Home} />
-          <Route path="/Portfolio" component={Portfolio} />
-        </Switch>
-        
-      </Router> */}
+    {/* <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/Portfolio" component={Portfolio} />
+        <Route path="Contact" component={Contact} />
+      </Switch>
+    </Router> */}
     <Home />
     <Portfolio />
-    <Contact />
-      </>
+    <Contact  /> 
+    </>
   );
 }
 

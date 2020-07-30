@@ -3,7 +3,7 @@ import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBCardTitle, MDBIc
 import "../JumboTronContact/JumboTronContact.css";
 const JumbotronContact = () => {
     return (
-        <MDBContainer fluid className="background">
+        <MDBContainer fluid className="background" id="ContactScrollTag">
             <MDBRow >
                 <MDBCol className="my-5">
                     <hr className="hrWidth"></hr>

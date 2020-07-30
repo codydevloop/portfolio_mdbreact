@@ -9,10 +9,11 @@ import React, { Fragment } from "react";
 import { MDBBtn } from "mdbreact";
 import JumbotronCody from "../JumboTronCody/JumboTronCody";
 
+
 const Home = () => {
     return (
         <>
-            <Nav />
+            <Nav/>
             <JumbotronCody />
             <AboutMe />
         </>

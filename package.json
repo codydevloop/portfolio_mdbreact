@@ -10,7 +10,9 @@
     "mdbreact": "^4.27.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-router-hash-link": "^2.0.0",
+    "react-scripts": "3.4.1",
+    "react-scroll": "^1.8.0"
   },
   "scripts": {
     "predeploy": "npm run build",

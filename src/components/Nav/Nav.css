@@ -14,9 +14,14 @@
 }
 .linkgroup{
  /* border: solid red 1px; */
-    margin-right: 5em;
+    margin-right: 3em;
+    color: white;
  
 }   
+.myStyle{
+    /* height: 20px; */
+    /* color: green; */
+}
 
 
 
