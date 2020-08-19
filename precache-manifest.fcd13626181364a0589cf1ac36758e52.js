@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3a03ca25a571565c5b5049b85d6b2bf",
+    "revision": "c14650843efa16a8379c2c3b5092f8e9",
     "url": "/portfolio_mdbreact/index.html"
   },
   {
-    "revision": "2ec81c9dc36fa1f08333",
+    "revision": "6e18b084c99dd70e35a3",
     "url": "/portfolio_mdbreact/static/css/2.4bb3fca5.chunk.css"
   },
   {
-    "revision": "b116bfea7642dedd3929",
+    "revision": "7c2baf276b9bb92a3f2b",
     "url": "/portfolio_mdbreact/static/css/main.5624613c.chunk.css"
   },
   {
-    "revision": "2ec81c9dc36fa1f08333",
-    "url": "/portfolio_mdbreact/static/js/2.255cfe4a.chunk.js"
+    "revision": "6e18b084c99dd70e35a3",
+    "url": "/portfolio_mdbreact/static/js/2.8c89b3f9.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/portfolio_mdbreact/static/js/2.255cfe4a.chunk.js.LICENSE.txt"
+    "url": "/portfolio_mdbreact/static/js/2.8c89b3f9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b116bfea7642dedd3929",
-    "url": "/portfolio_mdbreact/static/js/main.77d34470.chunk.js"
+    "revision": "7c2baf276b9bb92a3f2b",
+    "url": "/portfolio_mdbreact/static/js/main.d8265a13.chunk.js"
   },
   {
     "revision": "61168b489eba25fc9392",
@@ -48,16 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_mdbreact/static/media/Project1_325x200.06941e16.png"
   },
   {
-    "revision": "bf9ba9bdf4bff75e0f67771898b40e56",
-    "url": "/portfolio_mdbreact/static/media/WashburnSearch.bf9ba9bd.png"
-  },
-  {
     "revision": "11911410dca2de148f30954eb2fd5eab",
     "url": "/portfolio_mdbreact/static/media/arrow_left.11911410.svg"
   },
   {
     "revision": "8ef6a08cdc1154920165680a4edde771",
     "url": "/portfolio_mdbreact/static/media/arrow_right.8ef6a08c.svg"
+  },
+  {
+    "revision": "80499f5e4707013d0af7b91c7bf6af1e",
+    "url": "/portfolio_mdbreact/static/media/backend.80499f5e.PNG"
   },
   {
     "revision": "085b1dd8427dbeff10bd55410915a3f6",
@@ -120,8 +120,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_mdbreact/static/media/fa-solid-900.ee09ad75.woff"
   },
   {
+    "revision": "638db834c33acf9ef679a8c7cb2786cd",
+    "url": "/portfolio_mdbreact/static/media/frontend.638db834.PNG"
+  },
+  {
     "revision": "d5d5ae1bf4f394cc4fb26f65e4092b26",
     "url": "/portfolio_mdbreact/static/media/moviedb325x200.d5d5ae1b.png"
+  },
+  {
+    "revision": "4205700b0e6c88fe1e7fc7c737328173",
+    "url": "/portfolio_mdbreact/static/media/washadmin.4205700b.png"
+  },
+  {
+    "revision": "21b3470bd35d64b26c9285c7a27721ff",
+    "url": "/portfolio_mdbreact/static/media/washlogin.21b3470b.png"
+  },
+  {
+    "revision": "5211241e1cc919dd87f7bd1965f108fe",
+    "url": "/portfolio_mdbreact/static/media/washmain.5211241e.png"
   },
   {
     "revision": "2309f626bfa6664b1efa40b07f3bc6c2",
