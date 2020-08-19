@@ -20,7 +20,34 @@ const Portfolio = () => {
                 <MDBCol size="10" className="theCol">
                     <MDBRow className="text-center d-flex flex-row justify-content-center">
 
-                          {/* WORKOUT TRACKER*/}
+                        {/* Zillow Clone*/}
+                        <div className="card1 col-md-3 m-5">
+                            <div>
+                                <div className="mt-2">
+                                    <h3 className="titleFont">Zillow Clone</h3>
+                                    <hr></hr>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="mt-3">
+                                    {/* #### MODAL #### */}
+                                    <ModalZillow />
+                                    <p className="cardFont">README</p>
+                                </div>
+                            </div>
+                            <div class="repoDeployFlex">
+                                <div>
+                                    <a href="https://github.com/codydevloop/real-estate" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <p className="cardFont">REPO</p>
+                                </div>
+                                <div class="flexEnd">
+                                    <a href="https://codydevloop-washburn-realestat.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
+                                    <p className="cardFont">DEPLOYED</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* WORKOUT TRACKER*/}
                         <div className="card1 col-md-3 m-5">
                             <div>
                                 <div className="mt-2">
@@ -37,7 +64,7 @@ const Portfolio = () => {
                             </div>
                             <div class="repoDeployFlex">
                                 <div>
-                                    <a href="https://github.com/codydevloop/MongoDBWorkoutTracker"  target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                                    <a href="https://github.com/codydevloop/MongoDBWorkoutTracker" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
                                     <p className="cardFont">REPO</p>
                                 </div>
                                 <div class="flexEnd">
@@ -47,7 +74,7 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                        {/* MOVIE DB*/}             
+                        {/* MOVIE DB*/}
                         <div className="card1 col-md-3  m-5">
                             <div>
                                 <div className="mt-2">
@@ -58,7 +85,7 @@ const Portfolio = () => {
                             <div>
                                 <div className="mt-3">
                                     {/* #### MODAL #### */}
-                                    <ModalMovie/>
+                                    <ModalMovie />
                                     <p className="cardFont">README</p>
                                 </div>
                             </div>
@@ -74,8 +101,8 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                         {/* DA-BURGER*/}
-                         <div className="card1 col-md-3  m-5">
+                        {/* DA-BURGER*/}
+                        <div className="card1 col-md-3  m-5">
                             <div>
                                 <div className="mt-2">
                                     <h3 className="titleFont">EAT-DA-BURGER</h3>
@@ -126,7 +153,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                       
+
                         {/* POKEMON*/}
                         <div className="card1 col-md-3 m-5">
                             <div>
@@ -149,33 +176,6 @@ const Portfolio = () => {
                                 </div>
                                 <div class="flexEnd">
                                     <a href="https://codydevloop.github.io/React_Pokemon/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
-                                    <p className="cardFont">DEPLOYED</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        {/* Zillow Clone*/}  
-                        <div className="card1 col-md-3 m-5">
-                            <div>
-                                <div className="mt-2">
-                                    <h3 className="titleFont">WIP-Zillow Clone</h3>
-                                    <hr></hr>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="mt-3">
-                                    {/* #### MODAL #### */}
-                                    <ModalZillow />
-                                    <p className="cardFont">README</p>
-                                </div>
-                            </div>
-                            <div class="repoDeployFlex">
-                                <div>
-                                    <a href="https://github.com/azu20/real-estate" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
-                                    <p className="cardFont">REPO</p>
-                                </div>
-                                <div class="flexEnd">
-                                    <a href="https://washburn-real-estate.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
                                     <p className="cardFont">DEPLOYED</p>
                                 </div>
                             </div>
