@@ -9,7 +9,7 @@ const JumbotronCody = () => {
                     {/* <hr className="hrWidth"></hr> */}
                     <h1 className="portfolio">CODY HOOVER</h1>
                     <hr className="hrWidth"></hr>
-                    <h6 className="noUnderline">Full Stack Web Developer  |  MERN Stack</h6>
+                    <h6 className="noUnderline">Full Stack Web Developer  |  MERN Stack  | Cloud Enthusiast</h6>
                 </MDBCol>
             </MDBRow>
         </MDBContainer>

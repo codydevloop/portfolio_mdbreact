@@ -1,7 +1,7 @@
 import React from "react";
 import { MDBCol, MDBIcon, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import "../Footer/Footer.css";
-import Resume from "../../assets/CHLHHResPE.pdf";
+import Resume from "../../assets/Cody_Hoover_Resume.pdf";
 
 
 const FooterPage = () => {

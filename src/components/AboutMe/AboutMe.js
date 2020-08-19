@@ -30,6 +30,28 @@ const AboutMe = () => {
                                 </div>
                             </MDBCol>
                         </MDBRow>
+                        <MDBRow>
+                            <MDBCol md="6" className="d-none d-md-block">
+                                <div className="d-flex flex-row justify-content-end">
+                                    <h4 className="popularTeal">this</h4>
+                                    <h4 className="objpropKey">.security</h4>
+                                    <h4 className="equalsWhite equalsTab">=</h4>
+                                </div>
+                            </MDBCol>
+                            <MDBCol md="6" className="d-md-none">
+                                <div className="d-flex flex-row">
+                                    <h4 className="popularTeal">this</h4>
+                                    <h4 className="objpropKey">.security</h4>
+                                    <h4 className="equalsWhite equalsTab">=</h4>
+                                </div>
+                            </MDBCol>
+                            <MDBCol md="6">
+                                <div className="d-flex flex-row justify-content-start">
+                                    <h4 className="objpropVal">`Auth0, Passport`</h4>
+                                    <h4 className="equalsWhite">;</h4>
+                                </div>
+                            </MDBCol>
+                        </MDBRow>
 
                         <MDBRow>
                             {/* CREATING TWO ELEMENTS TO HIDE/SHOW FOR 'this.xxxx' DIVS ONLY.
@@ -55,7 +77,7 @@ const AboutMe = () => {
 
                             <MDBCol md="6">
                                 <div className="d-flex flex-row justify-content-start">
-                                    <h4 className="objpropVal">`React, JavaScript, Material`</h4>
+                                    <h4 className="objpropVal">`React, JavaScript, Bootstrap`</h4>
                                     <h4 className="equalsWhite">;</h4>
                                 </div>
                             </MDBCol>
@@ -130,46 +152,25 @@ const AboutMe = () => {
                             <MDBCol md="6" className="d-none d-md-block">
                                 <div className="d-flex flex-row justify-content-end">
                                     <h4 className="popularTeal">this</h4>
-                                    <h4 className="objpropKey">.devTools</h4>
+                                    <h4 className="objpropKey">.cloud</h4>
                                     <h4 className="equalsWhite equalsTab">=</h4>
                                 </div>
                             </MDBCol>
                             <MDBCol md="6" className="d-md-none">
                                 <div className="d-flex flex-row">
                                     <h4 className="popularTeal">this</h4>
-                                    <h4 className="objpropKey">.devTools</h4>
+                                    <h4 className="objpropKey">.cloud</h4>
                                     <h4 className="equalsWhite equalsTab">=</h4>
                                 </div>
                             </MDBCol>
                             <MDBCol md="6">
                                 <div className="d-flex flex-row justify-content-start">
-                                    <h4 className="objpropVal">`VS Code, Chrome DevTools, GitHub</h4>
+                                    <h4 className="objpropVal">`Heroku, AWS, Terraform'</h4>
                                     <h4 className="equalsWhite">;</h4>
                                 </div>
                             </MDBCol>
                         </MDBRow>
-                        <MDBRow>
-                            <MDBCol md="6" className="d-none d-md-block">
-                                <div className="d-flex flex-row justify-content-end">
-                                    <h4 className="popularTeal">this</h4>
-                                    <h4 className="objpropKey">.devToolsSoMany</h4>
-                                    <h4 className="equalsWhite equalsTab">=</h4>
-                                </div>
-                            </MDBCol>
-                            <MDBCol md="6" className="d-md-none">
-                                <div className="d-flex flex-row">
-                                    <h4 className="popularTeal">this</h4>
-                                    <h4 className="objpropKey">.devToolsSoMany</h4>
-                                    <h4 className="equalsWhite equalsTab">=</h4>
-                                </div>
-                            </MDBCol>
-                            <MDBCol md="6">
-                                <div className="d-flex flex-row justify-content-start">
-                                    <h4 className="objpropVal">`Google-Fu, Heroku, NPM, AWS`</h4>
-                                    <h4 className="equalsWhite">;</h4>
-                                </div>
-                            </MDBCol>
-                        </MDBRow>
+                       
                         <MDBRow>
                             <MDBCol md="6" className="d-none d-md-block">
                                 <div className="d-flex flex-row justify-content-end">
