@@ -24,8 +24,15 @@ const Portfolio = () => {
                         <div className="card1 col-md-3 m-5">
                             <div>
                                 <div className="mt-2">
-                                    <h3 className="titleFont">Zillow Clone</h3>
+                                    <h3 className="titleFont">ZILLOW CLONE</h3>
                                     <hr></hr>
+                                </div>
+                            </div>
+                            {/* TECHNOLOGIES USED */}
+                            <div>
+                                <div>
+                                    <p className="technologiesUsed">MongoDB Atlas - Express/Node</p>
+                                    <p className="technologiesUsed">React - Auth0 -  Leaflet</p>
                                 </div>
                             </div>
                             <div>
@@ -55,6 +62,13 @@ const Portfolio = () => {
                                     <hr></hr>
                                 </div>
                             </div>
+                            {/* TECHNOLOGIES USED */}
+                            <div>
+                                <div>
+                                    <p className="technologiesUsed">MongoDB - Mongoose ODM</p>
+                                    <p className="technologiesUsed">Bootstrap - Express/Node</p>
+                                </div>
+                            </div>
                             <div>
                                 <div className="mt-3">
                                     {/* #### MODAL #### */}
@@ -80,6 +94,13 @@ const Portfolio = () => {
                                 <div className="mt-2">
                                     <h3 className="titleFont">THE MOVIE DB</h3>
                                     <hr></hr>
+                                </div>
+                            </div>
+                            {/* TECHNOLOGIES USED */}
+                            <div>
+                                <div>
+                                    <p className="technologiesUsed">MySQL - NPM mysql/mysql2 </p>
+                                    <p className="technologiesUsed">Passport Auth - Express/Node</p>
                                 </div>
                             </div>
                             <div>
@@ -110,6 +131,12 @@ const Portfolio = () => {
                                 </div>
                             </div>
                             <div>
+                                <div>
+                                    <p className="technologiesUsed">MySQL - NPM mysql/mysql2 </p>
+                                    <p className="technologiesUsed">Handlebars - Express/Node</p>
+                                </div>
+                            </div>
+                            <div>
                                 <div className="mt-3">
                                     {/* #### MODAL #### */}
                                     <ModalBurger />
@@ -137,6 +164,12 @@ const Portfolio = () => {
                             </div>
                             <div>
                                 <div>
+                                    <p className="technologiesUsed">jQuery - UIkit - ajax </p>
+                                    <p className="technologiesUsed">Server-side APIs - moment.js</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
                                     {/* #### MODAL #### */}
                                     <ModalDineIn />
                                     <p className="cardFont">README</p>
@@ -160,6 +193,12 @@ const Portfolio = () => {
                                 <div className="mt-2">
                                     <h3 className="titleFont">REACT/POKEMON</h3>
                                     <hr></hr>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p className="technologiesUsed">React - State - Props -Components </p>
+                                    <p className="technologiesUsed">Bootstrap - Express/Node</p>
                                 </div>
                             </div>
                             <div>
