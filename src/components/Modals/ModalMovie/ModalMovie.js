@@ -47,7 +47,7 @@ class ModalMovie extends Component {
                   that your results are tailored more to your interests. 
                   "Thumbs Down" represent movies that you wish to both not 
                   be returned in future searches or influence future searches.</p>
-              <p>The results page lists all the movies you have interacted with tells you if you liked it, disliked it, or added it to your watch list.</p>
+              <p>The results page lists all the movies you have interacted with and tells you if you liked it, disliked it, or added it to your watch list.</p>
               <img src={MoviedDBPic}></img>
               {/* <h5>User Story</h5> */}
             </MDBModalFooter>
