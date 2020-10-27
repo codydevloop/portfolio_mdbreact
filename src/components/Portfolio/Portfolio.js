@@ -48,7 +48,7 @@ const Portfolio = () => {
                                     <p className="cardFont">REPO</p>
                                 </div>
                                 <div class="flexEnd">
-                                    <a href="https://codydevloop-washburn-realestat.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
+                                    <a href="https://washburn-real-estate.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/heroku.png" /></a>
                                     <p className="cardFont">DEPLOYED</p>
                                 </div>
                             </div>

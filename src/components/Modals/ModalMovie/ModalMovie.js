@@ -45,7 +45,7 @@ class ModalMovie extends Component {
                   Dislikes, and Watch List. "Thumbs Up" represent movies that 
                   you wish to influence the outcome of future searches so 
                   that your results are tailored more to your interests. 
-                  "Thumbs Down" represent movies that you wish to both not 
+                  "Thumbs Down" represent movies that you wish not 
                   be returned in future searches or influence future searches.</p>
               <p>The results page lists all the movies you have interacted with and tells you if you liked it, disliked it, or added it to your watch list.</p>
               <img src={MoviedDBPic}></img>
