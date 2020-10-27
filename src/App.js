@@ -11,6 +11,7 @@ import Contact from "./components/Contact/Contact";
 
 
 
+
 // import { Container} from 'mdbreact';
 // import GridExamplesPage from "../src/components/GridExamplesPage/GridExamplesPage";
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="Contact" component={Contact} />
       </Switch>
     </Router> */}
+   
     <Home />
     <Portfolio />
     <Contact  /> 

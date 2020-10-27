@@ -47,9 +47,7 @@ class ModalMovie extends Component {
                   that your results are tailored more to your interests. 
                   "Thumbs Down" represent movies that you wish to both not 
                   be returned in future searches or influence future searches.</p>
-              <p>The application can accept user input for either Cardio or Resistance.
-                    You are able to add multiple workouts a day.  The dashboard 
-                    page displays nice graphs of the weeks aggregatesWatch List represents movies that you plan to watch in the future</p>
+              <p>The results page lists all the movies you have interacted with tells you if you liked it, disliked it, or added it to your watch list.</p>
               <img src={MoviedDBPic}></img>
               {/* <h5>User Story</h5> */}
             </MDBModalFooter>
